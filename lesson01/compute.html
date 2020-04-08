@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Vue.js</title>
+</head>
+<body>
+  <div id="app">
+    <p>{{ email.split("@")[0].toLowerCase() }}</p>
+    <p>{{ localEmail }}</p>
+    <p v-text="localEmail"></p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/compute.js"></script>
+</body>
+</html>
